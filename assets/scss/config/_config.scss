@@ -163,6 +163,10 @@ input::placeholder {
   color: var(--first-color-dark);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@      SCROLLBAR      @@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -218,7 +222,7 @@ input::placeholder {
 
   display: grid;
   place-items: center;
-  background: hsla(79, 20%, 10%, 0.7);
+  background: hsla(79, 20%, 5%, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
