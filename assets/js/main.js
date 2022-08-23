@@ -79,12 +79,13 @@ logButton.addEventListener('click', () => {
   navMenu.classList.remove('show-nav-menu');
   main.classList.remove('blur');
   footer.classList.remove('blur');
-  document.body.classList.remove('no-scroll');
+  document.body.classList.add('no-scroll');
 });
 
 logClose.addEventListener('click', () => {
   log.classList.remove('show-log');
   signIn.classList.remove('display-grid');
+  document.body.classList.remove('no-scroll');
 });
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
