@@ -1,4 +1,4 @@
-# ![logo](https://user-images.githubusercontent.com/95019708/186255337-88428c9d-b001-40d0-9b87-0ed25cb573f1.png) FITFIRE
+# ![logo](https://user-images.githubusercontent.com/95019708/186255433-b562aad9-7683-48a5-9cf8-38c7648f2779.png) FITFIRE
 Responsive Gym Website Design Using HTML CSS &amp; JavaScript
 
 - Responsive Technology Blog Design Using HTML CSS & JavaScript
@@ -6,3 +6,4 @@ Responsive Gym Website Design Using HTML CSS &amp; JavaScript
 - Developed first for desktop then for Mobile 
 - Compatible with all mobile devices and with a beautiful and pleasant user interface
 
+![logo](https://user-images.githubusercontent.com/95019708/186255433-b562aad9-7683-48a5-9cf8-38c7648f2779.png)
