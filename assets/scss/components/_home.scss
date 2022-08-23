@@ -1,0 +1,65 @@
+.home .container {
+  position: relative;
+}
+
+.home__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.home__subtitle {
+  font-size: 2.7rem;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--title-color);
+}
+
+.home__title {
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.home__description {
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.home__btn:hover {
+  background: var(--first-color-dark);
+}
+
+.home__img {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+
+  position: relative;
+  z-index: 1;
+}
+
+.home__triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.home__triangle-1 {
+  width: 700px;
+  background-color: hsl(79, 72%, 48%);
+  clip-path: polygon(85% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.home__triangle-2 {
+  width: 500px;
+  background-color: hsl(79, 72%, 55%);
+  clip-path: polygon(90% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.home__triangle-3 {
+  width: 300px;
+  background-color: hsl(79, 72%, 62%);
+  clip-path: polygon(95% 0, 100% 0%, 100% 100%, 0% 100%);
+}

@@ -1,0 +1,120 @@
+.footer {
+  background: var(--body-color-light);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  border-bottom: 1px solid hsla(79, 72%, 55%, 0.3);
+  padding-bottom: 4rem;
+}
+
+.footer__content:not(:first-child) {
+  justify-self: end;
+}
+
+.footer__logo {
+  display: block;
+  width: max-content;
+  font-family: 'subtitle';
+  font-weight: bolder;
+  color: var(--first-color);
+  letter-spacing: 5px;
+  transform: rotate(-5deg) translateY(-0.5rem);
+  margin-bottom: 0.8rem;
+}
+
+.footer__description {
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.footer__form {
+  display: flex;
+  gap: 0.8rem;
+  position: relative;
+}
+
+.footer__input {
+  border: 1px solid var(--first-color);
+  border-radius: 0.1rem;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.footer__input::placeholder {
+  color: var(--text-color);
+}
+
+.footer__btn {
+  padding: 0.8rem;
+}
+
+.footer__btn:hover {
+  background: var(--first-color-dark);
+}
+
+.footer__message {
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+  font-size: 0.8rem;
+}
+
+.footer__title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.footer__list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.footer__link {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  display: block;
+  width: max-content;
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  transform: translateX(-5px);
+  color: var(--first-color);
+}
+
+.footer__group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.footer__social {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.footer__social-link {
+  font-size: 0.9rem;
+  display: grid;
+  place-items: center;
+  color: var(--title-color-dark);
+  background: var(--first-color);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  border-radius: 0.1rem;
+  padding: 0 0.8rem;
+  transition: 0.3s;
+}
+
+.footer__social-link:hover {
+  background: var(--first-color-dark);
+}
+
+.footer__copy {
+  font-size: 0.6rem;
+}
+
+.footer__copy a {
+  color: var(--first-color);
+}

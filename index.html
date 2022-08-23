@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@ FAVICON @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@ icons.getbootstrap.com  @@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@   swiperjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@   CSS   @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>FITFIRE</title>
+  </head>
+  <body>
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@    PRELOADER    @@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <div class="preloader" id="preloader">
+      <img src="./assets/img/preloader.gif" />
+    </div>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="nav__logo">FITFIRE</a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#program" class="nav__link">Program</a>
+              </li>
+              <li class="nav__item">
+                <a href="#pricing" class="nav__link">Pricing</a>
+              </li>
+              <li class="nav__item">
+                <a href="#bmi" class="nav__link">BMI Calc</a>
+              </li>
+              <li class="nav__item">
+                <button class="btn log__btn" id="log-btn">Register Now</button>
+              </li>
+            </ul>
+
+            <i class="bi bi-x nav__close" id="nav-close"></i>
+          </div>
+
+          <i class="bi bi-list nav__toggle" id="nav-toggle"></i>
+        </nav>
+      </div>
+
+      <!-- @@@@@@@@@@@@@@@@@@@ USER LOGIN @@@@@@@@@@@@@@@@@@@ -->
+      <div class="log" id="log">
+        <div class="log__signin" id="signin">
+          <i class="bi bi-x log__close" id="log-close"></i>
+
+          <img src="./assets/img/login1.png" alt="" class="log__img" />
+
+          <form action="" class="log__form">
+            <h2 class="log__title">LOGIN</h2>
+
+            <div class="log__inputs">
+              <div class="log__input">
+                <i class="bi bi-person"></i>
+                <input placeholder="Username" type="text" name="" id="" />
+              </div>
+              <div class="log__input">
+                <i class="bi bi-lock"></i>
+                <input placeholder="Password" type="password" name="" id="" />
+              </div>
+              <button class="log__forgot-button">Forgot password</button>
+            </div>
+
+            <button class="log__button">Sign In</button>
+            <span class="log__account">
+              Don't have an account ?
+              <button class="log__signup-button">Sign Up</button>
+            </span>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@   HOME  @@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="home" id="home">
+        <div class="container">
+          <div class="home__container">
+            <div class="home__data">
+              <h2 class="home__subtitle">MAKE YOUR</h2>
+              <h1 class="home__title">BODY SHAPE</h1>
+              <p class="home__description">
+                In here we will help you to shape and build your ideal body and
+                live your life to the fullest.
+              </p>
+              <a href="#" class="btn home__btn">Get Started</a>
+            </div>
+
+            <div class="home__images">
+              <img
+                src="./assets/img/home.png"
+                alt="home image"
+                class="home__img"
+              />
+
+              <div class="home__triangle home__triangle-1"></div>
+              <div class="home__triangle home__triangle-2"></div>
+              <div class="home__triangle home__triangle-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@  PROGRAM  @@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="section program" id="program">
+        <div class="container">
+          <div class="section-data">
+            <h3 class="section-subtitle">Our Program</h3>
+            <h2 class="section-title"><span>build your</span> best body</h2>
+          </div>
+
+          <div class="program__container">
+            <article href="#" class="program__card">
+              <div class="program__img">
+                <img src="./assets/img/program1.png" alt="Program img" />
+              </div>
+
+              <h3 class="program__title">Flex Muscle</h3>
+              <p class="program__description">
+                Creating tension that's temporarily making the muscle fibers
+                smaller or contracted.
+              </p>
+
+              <a href="#" class="program__btn">
+                <img src="./assets/img/run.png" alt="program button" />
+              </a>
+            </article>
+
+            <article href="#" class="program__card">
+              <div class="program__img">
+                <img src="./assets/img/program2.png" alt="Program img" />
+              </div>
+
+              <h3 class="program__title">Cardio Exercise</h3>
+              <p class="program__description">
+                Exercise your heart rate up and keeps it up for a prolonged
+                period of time.
+              </p>
+
+              <a href="#" class="program__btn">
+                <img src="./assets/img/run.png" alt="program button" />
+              </a>
+            </article>
+
+            <article href="#" class="program__card">
+              <div class="program__img">
+                <img src="./assets/img/program3.png" alt="Program img" />
+              </div>
+
+              <h3 class="program__title">Basic Yoga</h3>
+              <p class="program__description">
+                Diaphragmatic this is the most common breathing technique you'll
+                find in yoga.
+              </p>
+
+              <a href="#" class="program__btn">
+                <img src="./assets/img/run.png" alt="program button" />
+              </a>
+            </article>
+
+            <article href="#" class="program__card">
+              <div class="program__img">
+                <img src="./assets/img/program4.png" alt="Program img" />
+              </div>
+
+              <h3 class="program__title">Weight Lifting</h3>
+              <p class="program__description">
+                Attempts a maximum weight single lift of a barbell loaded with
+                weight plates.
+              </p>
+
+              <a href="#" class="program__btn">
+                <img src="./assets/img/run.png" alt="program button" />
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@   CHOOSE US  @@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="section choose">
+        <div class="container">
+          <div class="choose__container">
+            <div class="choose__images">
+              <img
+                class="choose__img"
+                src="./assets/img/choose.png"
+                alt="choose-us img"
+              />
+
+              <div class="choose__triangle choose__triangle-1"></div>
+              <div class="choose__triangle choose__triangle-2"></div>
+              <div class="choose__triangle choose__triangle-3"></div>
+            </div>
+
+            <div class="choose__data">
+              <div class="section-data">
+                <h3 class="section-subtitle">Best Reason</h3>
+                <h2 class="section-title"><span>why</span> choose us ?</h2>
+              </div>
+
+              <p class="choose__description">
+                Choose your favorite class and start now. Remember the only bad
+                workout is the one you didn't do.
+              </p>
+
+              <div class="choose__group">
+                <div class="choose__group-data">
+                  <h3 class="choose__group-title">200+</h3>
+                  <p class="choose__group-description">Total Members</p>
+                </div>
+                <div class="choose__group-data">
+                  <h3 class="choose__group-title">50+</h3>
+                  <p class="choose__group-description">Best trainers</p>
+                </div>
+                <div class="choose__group-data">
+                  <h3 class="choose__group-title">25+</h3>
+                  <p class="choose__group-description">Programs</p>
+                </div>
+                <div class="choose__group-data">
+                  <h3 class="choose__group-title">100+</h3>
+                  <p class="choose__group-description">Awards</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@  PRICING   @@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="section pricing" id="pricing">
+        <div class="container">
+          <div class="section-data">
+            <h3 class="section-subtitle">Pricing</h3>
+            <h2 class="section-title"><span>OUR</span> SPECIAL PLAN</h2>
+          </div>
+
+          <div class="pricing__container">
+            <article class="pricing__card">
+              <header class="pricing__header">
+                <div class="pricing__img">
+                  <img src="./assets/img/pricing1.png" alt="pricing img" />
+                </div>
+                <h3 class="pricing__title">basic package</h3>
+                <h2 class="pricing__number">$120</h2>
+              </header>
+
+              <ul class="pricing__list">
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 5 Days In A Week
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 01 Sweatshirt
+                </li>
+                <li class="pricing__item pricing__opacity">
+                  <i class="bi bi-check-circle"></i> 01 Bottle of Protein
+                </li>
+                <li class="pricing__item pricing__opacity">
+                  <i class="bi bi-check-circle"></i> Access to Videos
+                </li>
+                <li class="pricing__item pricing__opacity">
+                  <i class="bi bi-check-circle"></i> Muscle Stretching
+                </li>
+              </ul>
+              <a href="#" class="pricing__btn btn">Purchase Now</a>
+            </article>
+
+            <article class="pricing__card pricing__active">
+              <header class="pricing__header">
+                <div class="pricing__img">
+                  <img src="./assets/img/pricing2.png" alt="pricing img" />
+                </div>
+                <h3 class="pricing__title">premium package</h3>
+                <h2 class="pricing__number">$240</h2>
+              </header>
+
+              <ul class="pricing__list">
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 5 Days In A Week
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 01 Sweatshirt
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 01 Bottle of Protein
+                </li>
+                <li class="pricing__item pricing__opacity">
+                  <i class="bi bi-check-circle"></i> Access to Videos
+                </li>
+                <li class="pricing__item pricing__opacity">
+                  <i class="bi bi-check-circle"></i> Muscle Stretching
+                </li>
+              </ul>
+
+              <a href="#" class="pricing__btn btn">Purchase Now</a>
+            </article>
+
+            <article class="pricing__card">
+              <header class="pricing__header">
+                <div class="pricing__img">
+                  <img src="./assets/img/pricing3.png" alt="pricing img" />
+                </div>
+                <h3 class="pricing__title">diamond package</h3>
+                <h2 class="pricing__number">$420</h2>
+              </header>
+
+              <ul class="pricing__list">
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 5 Days In A Week
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 01 Sweatshirt
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> 01 Bottle of Protein
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> Access to Videos
+                </li>
+                <li class="pricing__item">
+                  <i class="bi bi-check-circle"></i> Muscle Stretching
+                </li>
+              </ul>
+
+              <a href="#" class="pricing__btn btn">Purchase Now</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@     BMI     @@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="section bmi" id="bmi">
+        <div class="container">
+          <div class="bmi__container">
+            <div class="bmi__data">
+              <h2 class="section-title"><span>calculate</span> your bmi</h2>
+              <p class="bmi__description">
+                The body mass index (BMI) calculator calculates body mass index
+                from your weight and height.
+              </p>
+
+              <form class="bmi__form" id="bmi-form">
+                <div class="bmi__input">
+                  <input
+                    type="number"
+                    placeholder="Height"
+                    name=""
+                    id="bmi-cm"
+                  />
+                  <label for="">cm</label>
+                </div>
+
+                <div class="bmi__input">
+                  <input
+                    type="number"
+                    placeholder="Weight"
+                    name=""
+                    id="bmi-kg"
+                  />
+                  <label for="">kg</label>
+                </div>
+
+                <button type="submit" class="btn bmi__btn">
+                  Calculate Now
+                </button>
+
+                <p class="bmi__message" id="bmi-message"></p>
+              </form>
+            </div>
+
+            <img src="./assets/img/bmi.png" alt="bmi img" class="bmi__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@    TEAM     @@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="section team">
+        <div class="container">
+          <div class="section-data">
+            <h3 class="section-subtitle">Our Team</h3>
+            <h2 class="section-title"><span>TRAIN with</span> EXPERTS</h2>
+          </div>
+
+          <div class="swiper team__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide team__container">
+                <div class="team__data">
+                  <h2 class="team__title">Andre Crew</h2>
+                  <p class="team__subtitle">Personal trainer</p>
+                  <p class="team__description">
+                    André Crews began his fitness journey as an unhealthy,
+                    unhappy corporate banker who spent way more time drinking at
+                    the bar than lifting a barbell. In 2010, he left the bank to
+                    pursue his passion. André lost 25 lbs.
+                  </p>
+                  <div class="team__social">
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://web.whatsapp.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-whatsapp"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="team__img">
+                  <img src="./assets/img/team1.jpg" alt="team img" />
+                </div>
+              </div>
+
+              <div class="swiper-slide team__container">
+                <div class="team__data">
+                  <h2 class="team__title">ROGER SCOTT</h2>
+                  <p class="team__subtitle">Personal trainer</p>
+                  <p class="team__description">
+                    ROGER SCOTT began his fitness journey as an unhealthy,
+                    unhappy corporate banker who spent way more time drinking at
+                    the bar than lifting a barbell. In 2010, he left the bank to
+                    pursue his passion. André lost 25 lbs.
+                  </p>
+                  <div class="team__social">
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://web.whatsapp.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-whatsapp"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="team__img">
+                  <img src="./assets/img/team2.jpg" alt="team img" />
+                </div>
+              </div>
+
+              <div class="swiper-slide team__container">
+                <div class="team__data">
+                  <h2 class="team__title">Anderew Eletch</h2>
+                  <p class="team__subtitle">Personal trainer</p>
+                  <p class="team__description">
+                    Anderew Eletch began his fitness journey as an unhealthy,
+                    unhappy corporate banker who spent way more time drinking at
+                    the bar than lifting a barbell. In 2010, he left the bank to
+                    pursue his passion. André lost 25 lbs.
+                  </p>
+                  <div class="team__social">
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      href="https://web.whatsapp.com/"
+                      class="team__social-link"
+                      ><i class="bi bi-whatsapp"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="team__img">
+                  <img src="./assets/img/team3.jpg" alt="team img" />
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="bi bi-arrow-left-square"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="bi bi-arrow-right-square"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@  BRANDS  @@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="brands section">
+        <div class="container">
+          <div class="section-data">
+            <h3 class="section-subtitle">Our Partners</h3>
+          </div>
+          <div class="swiper brands__swiper">
+            <div class="swiper-wrapper">
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand1.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand2.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand3.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand4.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand5.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand6.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand7.png"
+                  alt="brand img"
+                />
+              </div>
+              <div class="brands__slide swiper-slide">
+                <img
+                  class="brands__img"
+                  src="./assets/img/brand8.png"
+                  alt="brand img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@  FOOTER  @@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <footer class="footer section" id="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__content">
+            <a href="#" class="footer__logo">FITFIRE</a>
+            <p class="footer__description">
+              Subscribe for company <br />
+              updates below.
+            </p>
+            <form action="" class="footer__form" id="footer-form">
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Your Email"
+                class="footer__input"
+                id="footer-input"
+              />
+              <button type="submit" class="btn footer__btn">Subscribe</button>
+
+              <p class="footer__message" id="footer-message"></p>
+            </form>
+          </div>
+
+          <div class="footer__content">
+            <h3 class="footer__title">information</h3>
+            <ul class="footer__list">
+              <li>
+                <a
+                  target="_blank"
+                  href="tel:+989353770255"
+                  class="footer__link"
+                >
+                  (+98)9353770255</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.google.com/maps/place/Piroozi+Metro+Station/@35.6906275,51.4678442,18z/data=!4m5!3m4!1s0x3f8e027b555fc43b:0x1682d8b3b203a6db!8m2!3d35.6910109!4d51.4679227"
+                  class="footer__link"
+                >
+                  MFR9+C5,Piroozi St,<br />
+                  Farah Abad,<br />Tehran, Iran</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__content">
+            <h3 class="footer__title">Pricing</h3>
+            <ul class="footer__list">
+              <li><a href="" class="footer__link">Basic</a></li>
+              <li><a href="" class="footer__link">Premium</a></li>
+              <li><a href="" class="footer__link">Diamond</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__content">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">About Us</a></li>
+              <li><a href="#" class="footer__link">Careers</a></li>
+              <li><a href="#" class="footer__link">Customers</a></li>
+              <li><a href="#" class="footer__link">Partners</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              target="_blank"
+              href="https://twitter.com/"
+              class="footer__social-link"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/"
+              class="footer__social-link"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/"
+              class="footer__social-link"
+              ><i class="bi bi-youtube"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://web.whatsapp.com/"
+              class="footer__social-link"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+
+          <p class="footer__copy">
+            &copy;2022 coded by
+            <a
+              href="https://github.com/soroushmdn"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Soroush Karimi.</a
+            >
+            Design from Bedimcode.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@   SCROLLUP   @@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <a href="#" class="scrollup" id="scrollup"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@   swiperjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@    scrollrevealjs.org   @@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@    emailjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@   JS    @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

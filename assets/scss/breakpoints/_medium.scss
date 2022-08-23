@@ -1,0 +1,121 @@
+@media (max-width: 991px) {
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .log__signin {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HOME  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .home__container {
+    padding-top: 8rem;
+  }
+
+  .home__subtitle {
+    font-size: 2rem;
+  }
+
+  .home__title {
+    font-size: 3.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .home__description {
+    font-size: 0.9rem;
+    width: 85%;
+  }
+
+  .home__img {
+    width: 400px;
+  }
+
+  .home__triangle-1 {
+    width: 500px;
+  }
+
+  .home__triangle-2 {
+    width: 350px;
+  }
+
+  .home__triangle-3 {
+    width: 200px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@  PROGRAM  @@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .program__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@    CHOOSE US   @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .choose__container {
+    gap: 3rem;
+  }
+
+  .choose__img {
+    width: 350px;
+  }
+
+  .choose__data .section-title {
+    font-size: 2rem;
+  }
+
+  .choose__description {
+    margin-bottom: 1.5rem;
+    width: 85%;
+  }
+
+  .choose__group {
+    row-gap: 1.5rem;
+  }
+
+  .choose__group-title {
+    font-size: 1.5rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@     PRICING     @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .pricing__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@       BMI       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .bmi__data .section-title {
+    font-size: 1.8rem;
+  }
+
+  .bmi__description {
+    font-size: 0.8rem;
+  }
+
+  .bmi__img {
+    width: 330px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@      TEAM       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .team__img,
+  .team__img img,
+  .team__img::after,
+  .team__img::before {
+    width: 250px;
+    height: 350px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@     FOOTER      @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .footer__link {
+    font-size: 0.8rem;
+  }
+}

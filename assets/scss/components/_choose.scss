@@ -1,0 +1,73 @@
+.choose .container {
+  position: relative;
+}
+
+.choose__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 5rem;
+}
+
+.choose__img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.choose__triangle {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.choose__triangle-1 {
+  width: 50%;
+  background-color: hsl(79, 72%, 48%);
+  clip-path: polygon(0 0, 15% 0, 100% 100%, 0% 100%);
+}
+
+.choose__triangle-2 {
+  width: 35%;
+  background-color: hsl(79, 72%, 55%);
+  clip-path: polygon(0 0, 10% 0, 100% 100%, 0% 100%);
+}
+
+.choose__triangle-3 {
+  width: 20%;
+  background-color: hsl(79, 72%, 62%);
+  clip-path: polygon(0 0, 5% 0, 100% 100%, 0% 100%);
+}
+
+.choose__data .section-data {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.choose__data .section-title {
+  font-size: 2.7rem;
+}
+
+.choose__description {
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+.choose__group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+}
+
+.choose__group-data {
+  justify-self: start;
+  text-align: center;
+}
+
+.choose__group-title {
+  font-family: 'subtitle';
+  font-size: 1.8rem;
+}

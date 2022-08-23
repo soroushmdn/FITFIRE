@@ -1,0 +1,88 @@
+.program__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 0 3rem;
+}
+
+.program__card {
+  position: relative;
+  display: grid;
+  align-content: flex-start;
+  gap: 0.5rem;
+  background: var(--body-color-light);
+  padding: 1.8rem 1.3rem 2.3rem;
+  border-radius: 0.1rem;
+  transition: 0.3s;
+}
+
+.program__img {
+  background: var(--first-color);
+  display: grid;
+  justify-self: start;
+  place-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+.program__img img {
+  width: 32px;
+  height: 32px;
+}
+
+.program__title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  transition: 0.3s;
+}
+
+.program__description {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  transition: 0.3s;
+}
+
+.program__btn {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.8rem;
+  background: var(--first-color-light);
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.program__btn img {
+  transform: translateX(-2rem);
+  transition: 1s;
+}
+
+.program__card:hover {
+  background: var(--first-color);
+  box-shadow: 0 0 0 1px var(--first-color-light);
+}
+
+.program__card:hover .program__img {
+  transform: scale(1.2);
+}
+
+.program__card:hover .program__title {
+  color: var(--title-color-dark);
+}
+
+.program__card:hover .program__description {
+  color: var(--text-color-dark);
+}
+
+.program__card:hover .program__btn {
+  opacity: 1;
+}
+
+.program__card:hover .program__btn img {
+  transform: translateX(0);
+}

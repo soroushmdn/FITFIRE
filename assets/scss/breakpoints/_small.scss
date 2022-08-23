@@ -1,0 +1,246 @@
+@media (max-width: 767px) {
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .nav {
+    height: 4rem;
+  }
+
+  .nav__toggle,
+  .nav__close {
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+
+  .nav__menu {
+    background: hsl(180, 12%, 10%);
+    box-shadow: -1px 0 0 0 hsla(79, 72%, 55%, 0.2);
+
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    padding: 5rem 3rem;
+    transition: 0.3s;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .nav__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  // JS CLASSES
+  .show-nav-menu {
+    right: 0;
+  }
+
+  .blur {
+    filter: blur(20px);
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+
+  // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
+  .log__signin {
+    padding: 2rem;
+  }
+
+  .log__img {
+    width: 300px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HOME  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .home__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-top: 7rem;
+  }
+
+  .home__data {
+    text-align: center;
+  }
+
+  .home__description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img {
+    width: 350px;
+  }
+
+  .home__triangle {
+    height: 55%;
+  }
+
+  .home__triangle-1 {
+    width: 100%;
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .home__triangle-2 {
+    width: 50%;
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .home__triangle-3 {
+    width: 20%;
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@  PROGRAM  @@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .program__container {
+    padding: 0 1rem;
+  }
+
+  .program__btn {
+    bottom: 0.7rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@    CHOOSE US   @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .choose__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .choose__images {
+    order: 2;
+  }
+
+  .choose__triangle {
+    height: 50%;
+  }
+
+  .choose__triangle-1 {
+    width: 100%;
+    clip-path: polygon(0 0, 0% 0, 100% 100%, 0% 100%);
+  }
+
+  .choose__triangle-2 {
+    width: 60%;
+    clip-path: polygon(0 0, 0% 0, 100% 100%, 0% 100%);
+  }
+
+  .choose__triangle-3 {
+    width: 30%;
+    clip-path: polygon(0 0, 0% 0, 100% 100%, 0% 100%);
+  }
+
+  .choose__data .section-data {
+    text-align: center;
+  }
+
+  .choose__description {
+    text-align: center;
+    margin: 0 auto 2rem;
+  }
+
+  .choose__group-data {
+    justify-self: center;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@     PRICING     @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .pricing__container {
+    padding: 0 1rem;
+  }
+
+  .pricing__container {
+    gap: 1.5rem;
+  }
+
+  .pricing__card {
+    padding: 1.5rem;
+    row-gap: 1.7rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@       BMI       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .bmi__container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .bmi__data {
+    text-align: center;
+  }
+
+  .bmi__description {
+    margin: 0.7rem auto;
+  }
+
+  .bmi__img {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@      TEAM       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .team__swiper {
+    padding-bottom: 4rem;
+  }
+
+  .swiper-button-prev {
+    left: calc(50% - 1.8rem);
+  }
+
+  .swiper-button-next {
+    right: calc(50% - 1.8rem);
+  }
+
+  .team__container {
+    grid-template-columns: 1fr;
+  }
+
+  .team__img {
+    order: -1;
+  }
+
+  .team__img,
+  .team__img img,
+  .team__img::after,
+  .team__img::before {
+    width: 220px;
+    height: 320px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@  BRANDS  @@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .brands .container {
+    padding: 0 1.5rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@     FOOTER      @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .footer__content:not(:first-child) {
+    justify-self: initial;
+  }
+}

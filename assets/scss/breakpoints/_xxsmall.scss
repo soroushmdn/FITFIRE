@@ -1,0 +1,77 @@
+@media (max-width: 374px) {
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@  REUSABLE CLASSES   @@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .section-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
+  .log__signin {
+    padding: 1.5rem;
+    width: 90%;
+    gap: 0;
+  }
+
+  .log__img {
+    width: 150px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HOME  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .home__container {
+    padding-top: 6rem;
+  }
+
+  .home__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .home__description {
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+  }
+
+  .home__img {
+    width: 250px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@       BMI       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .bmi__data .section-title {
+    font-size: 1.3rem;
+  }
+
+  .bmi__message {
+    font-size: 0.8rem;
+  }
+
+  .bmi__img {
+    width: 250px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@  BRANDS  @@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .brands .container {
+    padding: 0 1rem;
+  }
+
+  .brands__slide {
+    padding: 0.8rem 1rem;
+  }
+}

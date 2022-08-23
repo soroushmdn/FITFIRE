@@ -1,0 +1,159 @@
+@media (max-width: 575px) {
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@  REUSABLE CLASSES   @@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .container {
+    padding: 0 1rem;
+  }
+
+  .section {
+    padding-bottom: 0;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .preloader img {
+    width: 120px;
+    height: 120px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
+  .log {
+    justify-content: initial;
+  }
+
+  .log__signin {
+    width: 85%;
+    margin: auto;
+  }
+
+  .log__img {
+    width: 200px;
+    justify-self: center;
+  }
+
+  .log__form {
+    row-gap: 1rem;
+  }
+
+  .log__title {
+    font-size: 1.5rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@  HOME  @@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .home__container {
+    gap: 2rem;
+  }
+
+  .home__subtitle {
+    font-size: 1.5rem;
+  }
+
+  .home__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home__description {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .home__img {
+    width: 300px;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@  PROGRAM  @@@@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .program__container {
+    grid-template-columns: 1fr;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@@    CHOOSE US   @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .choose__img {
+    width: 300px;
+  }
+
+  .choose__data .section-title {
+    font-size: 1.6rem;
+  }
+
+  .choose__description {
+    width: 90%;
+  }
+
+  .choose__group-title {
+    font-size: 1.2rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@     PRICING     @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .pricing__container {
+    grid-template-columns: 1fr;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@       BMI       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .bmi__data {
+    row-gap: 1.5rem;
+  }
+
+  .bmi__data .section-title {
+    font-size: 1.5rem;
+  }
+
+  .bmi__description {
+    width: 95%;
+  }
+
+  .bmi__form {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .bmi__btn {
+    grid-column: initial;
+    margin-top: 1rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@      TEAM       @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .team__description {
+    font-size: 0.8rem;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@@     FOOTER      @@@@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .footer.section {
+    padding-bottom: 2rem;
+  }
+
+  .footer__content:first-child {
+    grid-column: 1/3;
+  }
+
+  .footer__form {
+    flex-direction: column;
+  }
+
+  .footer__group {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
