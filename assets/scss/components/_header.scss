@@ -60,13 +60,13 @@
 
 .scroll-header {
   background: var(--body-color);
-  box-shadow: 0 1px 0 0 hsla(79, 72%, 55%, 0.2);
+  box-shadow: 0 0 3px 0 hsl(180, 12%, 8%);
 }
 
 // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
 
 .log {
-  background: hsla(79, 20%, 15%, 0.8);
+  background: hsla(79, 20%, 10%, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 
