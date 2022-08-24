@@ -60,7 +60,7 @@
 
 .scroll-header {
   background: var(--body-color);
-  box-shadow: 0 0 3px 0 hsl(180, 12%, 8%);
+  box-shadow: 0 5px 5px 0 hsl(180, 12%, 5%);
 }
 
 // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
@@ -149,6 +149,10 @@
   column-gap: 0.5rem;
   padding: 0.8rem;
   border-radius: 0.2rem;
+}
+
+.log__input input {
+  width: 100%;
 }
 
 .log__input input,
