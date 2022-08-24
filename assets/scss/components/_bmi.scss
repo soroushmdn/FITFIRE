@@ -1,152 +1,74 @@
-@media (max-width: 575px) {
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@  REUSABLE CLASSES   @@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .container {
-    padding: 0 1rem;
-  }
+.bmi__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
 
-  .section {
-    padding-bottom: 0;
-  }
+.bmi__data {
+  display: grid;
+  row-gap: 1rem;
+}
 
-  .section-title {
-    font-size: 1.6rem;
-  }
+.bmi__description {
+  width: 80%;
+  margin-bottom: 1rem;
+}
 
-  .preloader img {
-    width: 120px;
-    height: 120px;
-  }
+.bmi__form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 1rem;
+  position: relative;
+}
 
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+.bmi__input {
+  border: 1px solid var(--first-color);
+  border-radius: 0.1rem;
+  display: flex;
+}
 
-  // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
+.bmi__input input {
+  width: 100%;
+  padding: 1rem;
+}
 
-  .log__signin {
-    grid-template-columns: 80%;
-  }
+.bmi__input input::-webkit-outer-spin-button,
+.bmi__input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-  .log__img {
-    width: 250px;
-    justify-self: center;
-  }
+.bmi__input input[type='number'] {
+  -moz-appearance: textfield;
+}
 
-  .log__form {
-    row-gap: 1rem;
-  }
+.bmi__input input::placeholder {
+  color: var(--text-color);
+}
 
-  .log__title {
-    font-size: 1.5rem;
-  }
+.bmi__input label {
+  padding: 1rem;
+  color: var(--title-color);
+}
 
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@@@@@@  HOME  @@@@@@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .home__container {
-    gap: 2rem;
-  }
+.bmi__btn {
+  padding: 1rem 1.6rem;
+  grid-column: 1/3;
+}
 
-  .home__subtitle {
-    font-size: 1.5rem;
-  }
+.bmi__btn:hover {
+  background: var(--first-color-dark);
+}
 
-  .home__title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
+.bmi__message {
+  position: absolute;
+  left: 0;
+  bottom: -2rem;
+}
 
-  .home__description {
-    width: 90%;
-    margin-bottom: 2rem;
-  }
-
-  .home__img {
-    width: 300px;
-  }
-
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@@@@@  PROGRAM  @@@@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .program__container {
-    grid-template-columns: 1fr;
-  }
-
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@@    CHOOSE US   @@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .choose__img {
-    width: 300px;
-  }
-
-  .choose__data .section-title {
-    font-size: 1.6rem;
-  }
-
-  .choose__description {
-    width: 90%;
-  }
-
-  .choose__group-title {
-    font-size: 1.2rem;
-  }
-
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@     PRICING     @@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .pricing__container {
-    grid-template-columns: 1fr;
-  }
-
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@       BMI       @@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-  .bmi__data .section-title {
-    font-size: 1.5rem;
-  }
-
-  .bmi__description {
-    width: 95%;
-  }
-
-  .bmi__form {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .bmi__btn {
-    grid-column: initial;
-    margin-top: 1rem;
-  }
-
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@      TEAM       @@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .team__description {
-    font-size: 0.8rem;
-  }
-
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  // @@@@@@@@@@     FOOTER      @@@@@@@@@@@
-  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  .footer.section {
-    padding-bottom: 2rem;
-  }
-
-  .footer__content:first-child {
-    grid-column: 1/3;
-  }
-
-  .footer__form {
-    flex-direction: column;
-  }
-
-  .footer__group {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
+.bmi__img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  transform: scaleX(-1);
 }
