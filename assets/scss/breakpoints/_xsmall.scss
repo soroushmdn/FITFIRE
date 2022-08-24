@@ -24,17 +24,13 @@
   // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
   // @@@@@@@@@@@@@@@@@@ LOG @@@@@@@@@@@@@@@@@@
-  .log {
-    justify-content: initial;
-  }
 
   .log__signin {
-    width: 85%;
-    margin: 0 auto;
+    grid-template-columns: 80%;
   }
 
   .log__img {
-    width: 200px;
+    width: 250px;
     justify-self: center;
   }
 
