@@ -5,7 +5,7 @@ onload = () => {
   const preloader = document.getElementById('preloader');
 
   setTimeout(() => {
-    preloader.style.display = 'none';
+    preloader.remove() = 'none';
   }, 3500);
 };
 
