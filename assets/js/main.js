@@ -88,6 +88,13 @@ logClose.addEventListener('click', () => {
   document.body.classList.remove('no-scroll');
 });
 
+window.addEventListener('click', function (e) {
+  if(e.target === log) {
+    log.classList.remove('show-log');
+    signIn.classList.remove('display-grid');
+  }
+});
+
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@  ACTIVE LINKS WHEN SCROLL WINDOW  @@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
